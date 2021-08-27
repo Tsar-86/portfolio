@@ -1,0 +1,32 @@
+
+.experience__container {
+    display: flex;
+}
+
+.experience__dates {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    justify-content: flex-start;
+}
+
+.experience__places {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 90px;
+}
+
+.experience > h2 {
+    padding-left: 90px;
+}
+
+h3, p {
+    width: 450px;
+    margin: 0 0 0 50px;
+}
+
+.experience__list {
+    width: 80px;
+    margin: 10px 0px 27px 0px;
+}

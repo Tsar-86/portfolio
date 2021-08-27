@@ -1,0 +1,71 @@
+.skills {
+    display: flex;
+}
+
+.skill__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    justify-content: flex-start;
+}
+
+p, li {
+    color: rgb(164, 181, 236);
+}
+
+.skill__container > h2 {
+    margin-top: 30px;
+}
+
+ul {
+    padding-left: 60px;
+    margin-top: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0px 20px 0px;
+    width: 140px;
+}
+
+.first {
+    margin-top: 90px;
+}
+
+.progress {
+    background-color: #fff;
+    width: 250px;
+    height: 25px;
+    margin: 17px 50px 0px 140px;
+    border-radius: 6px;
+}
+
+.bar__chart {
+    display: flex;
+    background: linear-gradient(to right, rgb(8, 8, 114), rgb(118, 186, 209));
+    height: 100%;
+    border-radius: 6px;
+    
+}
+
+.html {
+    width: 210px;
+}
+
+.javascript {
+    width: 140px;
+}
+
+.react {
+    width: 100px;
+}
+
+.git {
+    width: 130px;
+}
+.php {
+    width: 30px;
+}
+.english {
+    width: 210px;
+}

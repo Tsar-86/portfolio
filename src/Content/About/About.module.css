@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    color: rgb(27, 4, 48);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    justify-content: flex-start;
+    width: 700px;
+}
+
+.section > p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo {
+    margin-top: 20px;
+    border: 6px dashed rgb(27, 4, 48);
+    height: 449px;
+
+}

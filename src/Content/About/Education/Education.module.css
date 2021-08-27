@@ -1,0 +1,19 @@
+.education {
+    margin-left: 90px;
+}
+
+.education__container {
+    display: flex;
+    
+}
+
+.education__places {
+    margin-left: 90px;
+}
+
+.education__list {
+    width: 80px;
+    margin: 10px 0px 27px 0px;
+    font-size: 16px;
+}
+

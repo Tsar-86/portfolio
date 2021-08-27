@@ -1,0 +1,12 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    max-width: 1200px;
+}
+
+/* @media screen and (max-device-width: 480px) {
+    body {
+        width: 30%;
+    }    
+}  */

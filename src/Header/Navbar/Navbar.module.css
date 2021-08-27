@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+}
+
+.item {
+    margin: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 4, 48);
+    font-weight: 600;
+    
+}
+
+a:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+a.active {
+    color: lightblue;
+    font-weight: 600;
+}
