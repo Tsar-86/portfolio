@@ -8,16 +8,6 @@ const Footer = () => {
             <button className={s.social__button}>
                 <Link to='/git' className={`${s.social} ${s.github__logo}`}></Link>
             </button>
-            
-            {/* <button className={s.social__button}>
-             <Link to='/WhatsApp' className={ `${s.social__button} ${s.WhatsApp__logo}` }></Link>
-            </button>
-            
-            
-
-            <button className={s.social__button}>
-                <Link to='/instagram' className={ `${s.social__button} ${s.__logo}` }></Link>
-            </button> */}
         </div>
     )
 }

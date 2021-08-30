@@ -42,3 +42,14 @@ article > p {
     height: 20px;
     width: 140px;
 }
+
+.link:hover {
+    color: rgb(19, 25, 104);
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: lightblue;
+    font-weight: 600;  
+}

@@ -3,14 +3,5 @@
     color: rgb(27, 4, 48);
 }
 
-h4 {
-    display: flex;
-    border: solid 2px rgb(27, 4, 48);
-    margin-left: 5px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 25px;
-}
+
 

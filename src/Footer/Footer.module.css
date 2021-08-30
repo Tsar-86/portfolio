@@ -1,6 +1,7 @@
 .footer {
     display: flex;
     color: rgb(27, 4, 48);
+    margin-bottom: 10px;
 }
 
 .social__button {
@@ -33,7 +34,3 @@
 .github__logo {
     background: url(./GitHub-Mark-32px.png);
 }
-
-/* .WhatsApp__logo {
-    background: url(./WhatsApp_Logo_1.png);
-} */

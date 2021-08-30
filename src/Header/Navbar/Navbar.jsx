@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router-dom'
-import s from'./Navbar.module.css'
+import { NavLink } from 'react-router-dom';
+import s from'./Navbar.module.css';
 
 const Navbar = () => {
     return (
@@ -13,9 +13,9 @@ const Navbar = () => {
             <div className={s.item}>
                 <NavLink to='/Projects' activeClassName={s.active}>Projects</NavLink>
             </div>
-            <div className={s.item}>
+            {/* <div className={s.item}>
                 <NavLink to='/Contact' activeClassName={s.active}>Contact</NavLink>
-            </div>
+            </div> */}
         </nav>
     )
 }

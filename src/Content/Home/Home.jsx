@@ -4,20 +4,7 @@ import s from'./Home.module.css'
 
 
 const Home = (props) => {
-    // let homeEng = [
-    //     {title: 'Hi, my name is'},
-    //     {name: 'Kirill Tsarkov.'}, 
-    //     {article: 'I build things for web.'}
-    // ];
-
-    // let home = [homeRus, homeEng];
-
-    // let homeLanguageChange = home.map( m => {
-    //     return isRusLanguage(m) ? homeRus : homeEng;
-    // })
-
     return (
-        
         <div className={s.home}>
             <h5>{props.home.eng.title}</h5>
             <h1>{props.home.eng.name} <br/> {props.home.eng.article}</h1>
@@ -29,11 +16,11 @@ const Home = (props) => {
             <div className={s.cv}>
                 <p className={s.cv__title}>Check out my CV -&gt;</p> 
                 <button className={s.cv__button}>
-                    <NavLink to='/About' activeClassName={s.active}>About</NavLink>
+                    <NavLink to='/About' className={s.link}>About</NavLink>
                 </button>
                 <p className={s.cv__project__title}>And some of my projects -&gt;</p>
                 <button className={s.cv__button}> 
-                    <NavLink to='/Projects' activeClassName={s.active}>Projects</NavLink>
+                    <NavLink to='/Projects' className={s.link}>Projects</NavLink>
                 </button>
             </div>
         </div>

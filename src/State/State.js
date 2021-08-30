@@ -11,14 +11,28 @@ let state = {
             name: 'Kirill Tsarkov.', 
             article: 'I build things for Web.'
         }
-    },    
-    anniversaryDescription: {
-        title: 'Anniversary Project',
-        article: 'This is my first javascript project, where i practice my knowledge. Such as:'
     },
-    blogLandingDescription: {
-        title: 'Blog Landing Page Project',
-        article: 'This is my first javascript project, where i practice my knowledge. Such as:'
+    anniversary: {
+        anniversarySkills: [
+            {id: 1, skill: 'HTML5'},
+            {id: 2, skill: 'CSS3, including flexbox'},
+            {id: 3, skill: 'Javascript with ES6 standards'}
+        ],
+        anniversaryDescription: {
+            title: 'Anniversary Project',
+            article: 'This is my first javascript project, where i practice my knowledge. Such as:'
+        }
+    },
+    blogLanding: {
+        blogLandingSkills: [
+            {id: 1, skill: 'HTML5'},
+            {id: 2, skill: 'CSS3, including flexbox'},
+            {id: 3, skill: 'Javascript with ES6 standards'}
+        ],
+        blogLandingDescription: {
+            title: 'Blog Landing Page Project',
+            article: 'In this project I made a landing page with color-changing buttons, drop-down lists and a sparkling background. Here I used: '
+        }
     },
     skills: [
         { id: 1, skill: 'HTML & CSS3' },
@@ -54,16 +68,6 @@ let state = {
             job: 'Front Office Agent', 
             place: 'AZIMUT Hotel Saint-Petersburg, Saint-Petersburg'
         }
-    ],
-    anniversary: [
-        {id: 1, skill: 'HTML5'},
-        {id: 2, skill: 'CSS3, include flexbox'},
-        {id: 3, skill: 'Javascript with ES6 standards'}
-    ],
-    blogLanding: [
-        {id: 1, skill: 'HTML5'},
-        {id: 2, skill: 'CSS3, include flexbox'},
-        {id: 3, skill: 'Javascript with ES6 standards'}
     ]
 };
 

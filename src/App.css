@@ -5,8 +5,53 @@ body {
     max-width: 1200px;
 }
 
-/* @media screen and (max-device-width: 480px) {
-    body {
-        width: 30%;
-    }    
-}  */
+h4 {
+    display: flex;
+    border: solid 2px rgb(27, 4, 48);
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 25px;
+}
+
+h3, p {
+    width: 450px;
+    margin: 0 0 0 50px;
+}
+
+h5 {
+    color:rgb(164, 181, 236);
+    margin: 5px 0px;
+}
+
+h1 {
+    margin: 15px 0px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    align-items: start;
+    background-color: #28198be0;
+    border: none;
+    color: lightblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(100, 173, 197);
+    border: none;
+    transition: ease 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 4, 48);
+    font-weight: 600;
+}
+
+p, li {
+    color: rgb(164, 181, 236);
+}

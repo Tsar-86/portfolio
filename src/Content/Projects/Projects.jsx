@@ -6,12 +6,8 @@ import s from './Projects.module.css';
 const Projects = (props) => {
     return (
         <div className={s.projects}>
-            <Anniversary 
-                anniversary={props.anniversary} 
-                anniversaryDescription={props.anniversaryDescription} />
-            <BlogLanding 
-                blogLanding={props.blogLanding} 
-                blogLandingDescription={props.blogLandingDescription}/>
+            <Anniversary anniversary={props.anniversary} />
+            <BlogLanding blogLanding={props.blogLanding} />
         </div>
     )
 }
