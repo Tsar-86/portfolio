@@ -10,7 +10,7 @@ const Home = (props) => {
             <h1>{props.home.eng.name} <br/> {props.home.eng.article}</h1>
             <p className={s.article}>I am open to interesting and challenging offers. 
                 Last couple of years I study Web development, HTML5, CSS3 (CSS Flexbox),  
-                JavaScript including React and Redux libraries, PHP. I am deeply interested 
+                JavaScript including React and Redux libraries. I am deeply interested 
                 in the field of information technologies and strive to develop professionally in it every day.
             </p>
             <div className={s.cv}>

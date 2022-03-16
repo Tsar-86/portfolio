@@ -26,9 +26,6 @@ const Skills = (props) => {
                     <div className={`${s.bar__chart} ${s.git}`}></div>
                 </div>
                 <div className={s.progress}>
-                    <div className={`${s.bar__chart} ${s.php}`}></div>
-                </div>
-                <div className={s.progress}>
                     <div className={`${s.bar__chart} ${s.english}`}></div>
                 </div>
             </div>

@@ -39,8 +39,7 @@ let state = {
         { id: 2, skill: 'Javascript' },
         { id: 3, skill: 'React' },
         { id: 4, skill: 'Git' },
-        { id: 5, skill: 'PHP' },
-        { id: 6, skill: 'English language' } 
+        { id: 5, skill: 'English language' } 
     ],
     education: [
         {id: 1, beginDate: '2021-07 - ', endDate: '2021-10', education: 'Professional Retraining for Web Development', place: 'National Academy of Modern Technologies, Moscow'},
@@ -49,20 +48,27 @@ let state = {
     experience: [
         {   
             id: 1, 
+            beginDate: '2021-10 - ', 
+            endDate: '2022-03', 
+            job: 'Technical support specialist', 
+            place: 'Get8, Saint-Petersburg'
+        },
+        {   
+            id: 2, 
             beginDate: '2020-09 - ', 
             endDate: '2021-05', 
             job: 'Call Center Agent', 
             place: 'Sletat.ru, Saint-Petersburg'
         },
         {   
-            id: 2, 
+            id: 3, 
             beginDate: '2019-08 - ', 
             endDate: '2020-08', 
             job: 'Front Office Shift Leader', 
             place: 'AZIMUT Hotel Saint-Petersburg, Saint-Petersburg'
         },
         {
-            id: 3, 
+            id: 4, 
             beginDate: '2017-07 - ', 
             endDate: '2018-06', 
             job: 'Front Office Agent', 
