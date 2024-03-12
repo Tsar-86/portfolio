@@ -48,27 +48,34 @@ let state = {
     experience: [
         {   
             id: 1, 
+            beginDate: '2022-05 - ', 
+            endDate: 'Now', 
+            job: 'Technical specialist', 
+            place: 'Get8, Saint-Petersburg'
+        },
+        {   
+            id: 2, 
             beginDate: '2021-10 - ', 
             endDate: '2022-03', 
             job: 'Technical support specialist', 
             place: 'Get8, Saint-Petersburg'
         },
         {   
-            id: 2, 
+            id: 3, 
             beginDate: '2020-09 - ', 
             endDate: '2021-05', 
             job: 'Call Center Agent', 
             place: 'Sletat.ru, Saint-Petersburg'
         },
         {   
-            id: 3, 
+            id: 4, 
             beginDate: '2019-08 - ', 
             endDate: '2020-08', 
             job: 'Front Office Shift Leader', 
             place: 'AZIMUT Hotel Saint-Petersburg, Saint-Petersburg'
         },
         {
-            id: 4, 
+            id: 5, 
             beginDate: '2017-07 - ', 
             endDate: '2018-06', 
             job: 'Front Office Agent', 

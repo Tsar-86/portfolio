@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import s from './Anniversary.module.css'
 
 const Anniversary = (props) => {
@@ -18,7 +17,7 @@ const Anniversary = (props) => {
                     {anniversaryProjectSkills}
                 </ul>
                 <button className={s.project__button}>
-                    <Link to='/anniversary' className={s.link}>Visit website</Link>
+                    <a href='https://tsar-86.github.io/Anniversary-project' className={s.link}>Visit website</a>
                 </button>   
             </article>
         </section>

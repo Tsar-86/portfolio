@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import s from './Blog-landing.module.css'
 
 const BlogLanding = (props) => {
@@ -14,7 +13,7 @@ const BlogLanding = (props) => {
                     {blogLandingProjectSkills}
                 </ul>
                 <button className={s.project__button}>
-                    <Link to='/blog' className={s.link}>Visit website</Link>
+                    <a href='https://tsar-86.github.io/blog-landing-page/' className={s.link}>Visit website</a>
                 </button>
             </article>
             <div className={s.second__project}>
