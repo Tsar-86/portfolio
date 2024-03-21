@@ -1,4 +1,4 @@
-import Anniversary from './Anniversary/Anniversary';
+import AdviceGenerator from './AdviceGenerator/AdviceGenerator';
 import BlogLanding from './Blog-landing/Blog-landing';
 import s from './Projects.module.css';
 
@@ -6,7 +6,7 @@ import s from './Projects.module.css';
 const Projects = (props) => {
     return (
         <div className={s.projects}>
-            {/* <Anniversary anniversary={props.anniversary} /> */}
+            <AdviceGenerator adviceGenerator={props.adviceGenerator} />
             <BlogLanding blogLanding={props.blogLanding} />
         </div>
     )

@@ -18,11 +18,11 @@ function App(props) {
     window.history.pushState(null, null, currentUrl);
   }
 
-  const handleAnniversaryClick = () => {
+  const handleAdviceClick = () => {
     // Сохраняем текущий URL
     const currentUrl = window.location.href;
     // Переходим на сторонний сайт
-    window.location.href = 'https://tsar-86.github.io/Anniversary-project/';
+    window.location.href = 'https://tsar-86.github.io/Advice-generator-app-main/';
     // Добавляем текущий URL в историю браузера
     window.history.pushState(null, null, currentUrl);
   }
@@ -52,11 +52,11 @@ function App(props) {
                 experience={props.state.experience} />} />
             <Route path='/Projects'
               render={() => <Projects
-                // anniversary={props.state.anniversary}
+                adviceGenerator={props.state.adviceGenerator}
                 blogLanding={props.state.blogLanding} />} />
             {/* <Route path='/Contact' component={Contact} /> */}
             <Route path='/blog' render={() => <div onClick={handleBlogClick} />} />
-            {/* <Route path='/anniversary' render={() => <div onClick={handleAnniversaryClick} />}/> */}
+            <Route path='/adviceGenerator' render={() => <div onClick={handleAdviceClick} />}/>
           </div>
           
           <Footer />

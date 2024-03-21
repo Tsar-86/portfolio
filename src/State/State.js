@@ -12,15 +12,15 @@ let state = {
             article: 'I build things for Web.'
         }
     },
-    anniversary: {
-        anniversarySkills: [
+    adviceGenerator: {
+        adviceGeneratorSkills: [
             {id: 1, skill: 'HTML5'},
             {id: 2, skill: 'CSS3, including flexbox'},
             {id: 3, skill: 'Javascript with ES6 standards'}
         ],
-        anniversaryDescription: {
-            title: 'Anniversary Project',
-            article: 'This is my first javascript project, where i practice my knowledge. Such as:'
+        adviceGeneratorDescription: {
+            title: 'Advice Generator App',
+            article: 'This javascript project, where i practice my knowledge:'
         }
     },
     blogLanding: {
