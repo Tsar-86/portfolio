@@ -20,7 +20,7 @@ let state = {
         ],
         adviceGeneratorDescription: {
             title: 'Advice Generator App',
-            article: 'This javascript project, where i practice my knowledge:'
+            article: 'This is javascript project, where i used fetch to get data and make random advice. Besides that i used: '
         }
     },
     blogLanding: {
@@ -33,6 +33,18 @@ let state = {
             title: 'Blog Landing Page Project',
             article: 'In this project I made a landing page with color-changing buttons, drop-down lists and a sparkling background. Here I used: '
         }
+    },
+    expencesChart: {
+            expencesChartSkills: [
+                {id: 1, skill: 'HTML5'},
+                {id: 2, skill: 'CSS3, including flexbox'},
+                {id: 3, skill: 'Javascript with ES6 standards'}
+            ],
+            expencesChartDescription: {
+                title: 'Expences Chart Components',
+                article: 'In this project I made a chart using javascript and css. Here I used: '
+            }
+
     },
     skills: [
         { id: 1, skill: 'HTML & CSS3' },

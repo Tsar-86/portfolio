@@ -36,6 +36,15 @@ function App(props) {
     window.history.pushState(null, null, currentUrl);
   }
 
+  const handleExpencesClick = () => {
+        // Сохраняем текущий URL
+        const currentUrl = window.location.href;
+        // Переходим на сторонний сайт
+    window.location.href = 'https://tsar-86.github.io/expenses-chart-component/';
+        // Добавляем текущий URL в историю браузера
+    window.history.pushState(null, null, currentUrl);
+  }
+
   return (
 
     <BrowserRouter>
@@ -53,10 +62,13 @@ function App(props) {
             <Route path='/Projects'
               render={() => <Projects
                 adviceGenerator={props.state.adviceGenerator}
-                blogLanding={props.state.blogLanding} />} />
+                blogLanding={props.state.blogLanding}
+                expencesChart={props.state.expencesChart} />} />
+          
             {/* <Route path='/Contact' component={Contact} /> */}
             <Route path='/blog' render={() => <div onClick={handleBlogClick} />} />
             <Route path='/adviceGenerator' render={() => <div onClick={handleAdviceClick} />}/>
+            <Route path='/expencesChart' render={() => <div onClick={handleExpencesClick} />}/>
           </div>
           
           <Footer />
